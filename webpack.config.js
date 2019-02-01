@@ -33,12 +33,12 @@ module.exports = {
                         'scss': [
                             'vue-style-loader',
                             'css-loader',
-                            'sass-loader'
+                            'sass-loader'  //sass-loader默认处理不基于缩进的 scss 语法
                         ],
                         'sass': [
                             'vue-style-loader',
                             'css-loader',
-                            'sass-loader?indentedSyntax'
+                            'sass-loader?indentedSyntax' //indentedSyntax:true处理基于缩进的scss语法
                         ]
                     }
                 }
