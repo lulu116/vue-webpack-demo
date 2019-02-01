@@ -69,7 +69,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
-                exclude: /node_modules/  //忽略node_modules文件夹下的文件，不用转码
+                exclude: /node_modules/  //忽略node_modules文件夹下的文件，不用转码 加入白名单
             },
             {
                 test: /\.(png|jpg|gif|svg|ico)$/,
